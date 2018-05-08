@@ -16,6 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // AVCTapePicker will take this value for its highlighted elements
+        UIView.appearance().tintColor = UIColor(red: 0.247, green: 0.718, blue: 0.643, alpha: 1)
         return true
     }
 

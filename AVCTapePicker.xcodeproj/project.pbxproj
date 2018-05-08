@@ -12,6 +12,7 @@
 		8F30303320A12F5F00340024 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F30303120A12F5F00340024 /* Main.storyboard */; };
 		8F30303520A12F6300340024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F30303420A12F6300340024 /* Assets.xcassets */; };
 		8F30303820A12F6300340024 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F30303620A12F6300340024 /* LaunchScreen.storyboard */; };
+		8F30304020A1323300340024 /* AVCTapePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F30303F20A1323300340024 /* AVCTapePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8F30303420A12F6300340024 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F30303720A12F6300340024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F30303920A12F6300340024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F30303F20A1323300340024 /* AVCTapePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVCTapePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				8F30302D20A12F5F00340024 /* AppDelegate.swift */,
 				8F30302F20A12F5F00340024 /* ViewController.swift */,
+				8F30303F20A1323300340024 /* AVCTapePicker.swift */,
 				8F30303120A12F5F00340024 /* Main.storyboard */,
 				8F30303420A12F6300340024 /* Assets.xcassets */,
 				8F30303620A12F6300340024 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				8F30303020A12F5F00340024 /* ViewController.swift in Sources */,
 				8F30302E20A12F5F00340024 /* AppDelegate.swift in Sources */,
+				8F30304020A1323300340024 /* AVCTapePicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
